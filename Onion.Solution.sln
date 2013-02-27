@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Core", "Onion.Core\Onion.Core.csproj", "{689A7392-8562-419B-BC2E-E50C3765794A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Core.Tests", "Onion.Core.Tests\Onion.Core.Tests.csproj", "{12591EDB-5732-4A47-A92D-5FF661CC0CDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{20F82CA9-7631-406A-972A-5BAA1B1270C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{652B2EB7-CC62-43CE-B370-53812B3E8EDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{28857DE4-7C4A-47C1-A37B-896BF687FEEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Data", "Onion.Data\Onion.Data.csproj", "{9176B470-C6B2-4C23-8A2E-9B2671B25630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Web", "Onion.Web\Onion.Web.csproj", "{07ABC3EE-F8F6-4BFC-B08A-F0CBF9CA94C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Web.Tests", "Onion.Web.Tests\Onion.Web.Tests.csproj", "{85015B8F-5000-447E-94DC-63AA2A55D66D}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Onion.Database", "Onion.Database\Onion.Database.sqlproj", "{B751E8E1-296F-443C-881E-66817FF8AFCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{689A7392-8562-419B-BC2E-E50C3765794A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689A7392-8562-419B-BC2E-E50C3765794A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689A7392-8562-419B-BC2E-E50C3765794A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689A7392-8562-419B-BC2E-E50C3765794A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12591EDB-5732-4A47-A92D-5FF661CC0CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12591EDB-5732-4A47-A92D-5FF661CC0CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12591EDB-5732-4A47-A92D-5FF661CC0CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12591EDB-5732-4A47-A92D-5FF661CC0CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9176B470-C6B2-4C23-8A2E-9B2671B25630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9176B470-C6B2-4C23-8A2E-9B2671B25630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9176B470-C6B2-4C23-8A2E-9B2671B25630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9176B470-C6B2-4C23-8A2E-9B2671B25630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07ABC3EE-F8F6-4BFC-B08A-F0CBF9CA94C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07ABC3EE-F8F6-4BFC-B08A-F0CBF9CA94C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07ABC3EE-F8F6-4BFC-B08A-F0CBF9CA94C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07ABC3EE-F8F6-4BFC-B08A-F0CBF9CA94C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85015B8F-5000-447E-94DC-63AA2A55D66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85015B8F-5000-447E-94DC-63AA2A55D66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85015B8F-5000-447E-94DC-63AA2A55D66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85015B8F-5000-447E-94DC-63AA2A55D66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B751E8E1-296F-443C-881E-66817FF8AFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B751E8E1-296F-443C-881E-66817FF8AFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B751E8E1-296F-443C-881E-66817FF8AFCF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B751E8E1-296F-443C-881E-66817FF8AFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B751E8E1-296F-443C-881E-66817FF8AFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B751E8E1-296F-443C-881E-66817FF8AFCF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{689A7392-8562-419B-BC2E-E50C3765794A} = {20F82CA9-7631-406A-972A-5BAA1B1270C8}
+		{12591EDB-5732-4A47-A92D-5FF661CC0CDA} = {20F82CA9-7631-406A-972A-5BAA1B1270C8}
+		{07ABC3EE-F8F6-4BFC-B08A-F0CBF9CA94C1} = {652B2EB7-CC62-43CE-B370-53812B3E8EDE}
+		{85015B8F-5000-447E-94DC-63AA2A55D66D} = {652B2EB7-CC62-43CE-B370-53812B3E8EDE}
+		{9176B470-C6B2-4C23-8A2E-9B2671B25630} = {28857DE4-7C4A-47C1-A37B-896BF687FEEB}
+		{B751E8E1-296F-443C-881E-66817FF8AFCF} = {28857DE4-7C4A-47C1-A37B-896BF687FEEB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
